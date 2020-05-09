@@ -67,4 +67,24 @@ We will dicuss about Inside Display later and now we will see how outer display 
 #### Z-index  
 - When elements overlap, they are ordered on the z-axis (i.e., which element covers another). The z-index CSS property can be used to specify the z-order of these overlapping elements. Overlapping elements with a larger z-index cover those with a smaller one.  
 
-Elements may overlap for a number of reasons; for instance, elements positioned absolutely, or elements with negative values set for their margin property. In these instances we need a way to determine which element should be displayed on top. Without explicitly using z-index the last element written to the DOM (the last element you wrote in your code) will appear on top of all the others, and so on up the chain of your elements.
+Elements may overlap for a number of reasons; for instance, elements positioned absolutely, or elements with negative values set for their margin property. In these instances we need a way to determine which element should be displayed on top. Without explicitly using z-index the last element written to the DOM (the last element you wrote in your code) will appear on top of all the others, and so on up the chain of your elements.  
+
+#### Absolute vs Relative Units  
+Many CSS properties require a unit of measurement. There’s a lot of units available, but the most common ones you’ll encounter are px (pixel) and em (pronounced like the letter m). The former is what you would intuitively call a pixel, regardless of whether the user has a retina display or not, and the latter is the current font size of the element in question.  
+
+There are broadly two types of units of measurement for CSS properties, absolute and relative.  
+
+##### Absolute  
+- px  
+- in  
+- mm  
+- cm  
+Absolute measurements are set values regardless of anything having to do with your program or the browser. px is the most common absolute unit of measurement, and many font sizes on the web for example, are set to somewhere between 12px-30px, A font size set to 16px will appear the same size no matter how big the screen. If however, you wanted to set a CSS property value based on some dynamic value, the width of a browser window for example, there are also relative units of measurement that can be used to define CSS properties.  
+
+##### Relative  
+- % - percentage of something, such as screen width  
+- em - A unit equivalent to the current font size - if 12px font, 2em would be 24px  
+- vw - units of viewport width (essentially the browser’s rendering space). Each unit is 1/100th of width  
+- vh - the same as above but for viewport height  
+
+* Em ->The em unit is very useful for defining sizes relative to some base font. For example, if you set the font-size of body to 16px, you could then set other element’s font-size value relative to that 16px.
