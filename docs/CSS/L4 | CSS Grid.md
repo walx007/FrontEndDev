@@ -64,4 +64,4 @@ The grid-auto-rows property can be used to generate the number of rows based on 
 Would create rows that are at least 100px tall and can be as tall as the content inside them demands.  
 -Further Research  
 For even more control over how your content is laid out,  
-[check out this article titled How Items Flow Into a CSS Grid] (https://mastery.games/post/grid-item-placement/)
+(check out this article titled How Items Flow Into a CSS Grid) [https://mastery.games/post/grid-item-placement/]
