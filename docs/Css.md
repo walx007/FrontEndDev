@@ -39,3 +39,16 @@ This concept can help you understand why your styles aren't being applied in the
 -There is a way to escape or override the specificity evaluation of elements using the !important keyword after an individual CSS property rule, but a couple important reminders:
 
 Always look for a way to use specificity before even considering !important. Never use !important on site-wide CSS.
+
+-------------------------------------------------------------------------------
+
+#### The Box Modal  
+- The box model is the basic building block of CSS.  
+- According to the box model concept, every element on a page is a rectangular box and may have width, height, padding, borders, and margins.  
+- When a browser renders (draws) a webpage each element, for example a piece of text or an image, is drawn as a rectangular box following the rules of the CSS Box Model.  
+
+##### Padding  
+* Next is padding - the space between the box’s content and its border. Note that padding is in addition to the content’s height and width, and is considered to be inside the element itself.
+
+##### Margin  
+* Last is the margin, which surrounds the rest of the box. It is the space between the box and surrounding boxes.
