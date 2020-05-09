@@ -44,3 +44,20 @@ There are three ways to explicitly set the order in which items will appear in a
 1. Moving the HTML code for the elements themselves to reorder  
 2. Appending -reverse to row or column will reverse the order in the specified row or column  
 3. Using the order property of the individual items inside the grid
+------------------------------------------------------------------------------------
+#### Aligning Items & Justifying Content with Flexbox
+align items--> It aligns items on the *cross* axis. use align-items with the possible values:
+- stretch  
+- flex-start  
+- flex-end  
+- center
+
+``justify-content`` -To justify content on the *main* axis use justify-content, which has the possible values:
+
+flex-start
+flex-end
+center
+space-around
+space-between
+space-evenly
+
