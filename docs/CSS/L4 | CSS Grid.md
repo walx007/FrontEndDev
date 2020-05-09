@@ -53,3 +53,15 @@ CSS Grid includes advanced capabilities for creating large and complex grids. So
 - Track listings with `repeat()` notation  
 - Track sizing and `minmax()`-use it in combination with `grid-auto-rows` to generate the infinite rows.e. fb feed.
 
+- The fr unit represents a fraction of the available space in the grid container.
+
+- The repeat() notation can be used to quickly layout many tracks for large grids. For example:  
+ ```grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; ``` 
+Could be written with repeat notation like this:
+``` grid-template-columns: repeat(7, 1fr);```  
+The grid-auto-rows property can be used to generate the number of rows based on the content and available space. The following code:  
+```grid-auto-rows: minmax(100px, auto);```  
+Would create rows that are at least 100px tall and can be as tall as the content inside them demands.  
+-Further Research  
+For even more control over how your content is laid out,  
+check out this article titled How Items Flow Into a CSS Grid.[https://mastery.games/post/grid-item-placement/]
