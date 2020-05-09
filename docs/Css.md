@@ -61,4 +61,10 @@ Always look for a way to use specificity before even considering !important. Nev
 We will dicuss about Inside Display later and now we will see how outer display works.  
 - `display:block`-In the CSS code if we set the box class display property to block, each rectangle would take up its own line and would be positioned one on top of the other.  
 - `display:inline-block`-if we set the display property to inline-block, the rectangles would be displayed side by side on the same line. Here is what the CSS could look like.
-- `display:inline`- The value inline is most often used to highlight specific text within a larger text element, span elements are a common example. Elements set to inline display have no width or height and only occupy the space that their text property (or .innerHTML property) takes up.
+- `display:inline`- The value inline is most often used to highlight specific text within a larger text element, span elements are a common example. Elements set to inline display have no width or height and only occupy the space that their text property (or .innerHTML property) takes up.  
+---------------------------------------------------------------------------------------------
+
+#### Z-index  
+- When elements overlap, they are ordered on the z-axis (i.e., which element covers another). The z-index CSS property can be used to specify the z-order of these overlapping elements. Overlapping elements with a larger z-index cover those with a smaller one.  
+
+Elements may overlap for a number of reasons; for instance, elements positioned absolutely, or elements with negative values set for their margin property. In these instances we need a way to determine which element should be displayed on top. Without explicitly using z-index the last element written to the DOM (the last element you wrote in your code) will appear on top of all the others, and so on up the chain of your elements.
