@@ -51,4 +51,14 @@ Always look for a way to use specificity before even considering !important. Nev
 * Next is padding - the space between the box’s content and its border. Note that padding is in addition to the content’s height and width, and is considered to be inside the element itself.
 
 ##### Margin  
-* Last is the margin, which surrounds the rest of the box. It is the space between the box and surrounding boxes.
+* Last is the margin, which surrounds the rest of the box. It is the space between the box and surrounding boxes.  
+
+-----------------------------------------------------------------------------------
+
+#### Display and Positioning: Inline & Block  
+* Each element can have an inside display and outside display property.  
+- Inside Display- It determines the positioning behaviour of children inside parent element.{Ex.Flexand Grid}.  
+We will dicuss about Inside Display later and now we will see how outer display works.  
+- `display:block`-In the CSS code if we set the box class display property to block, each rectangle would take up its own line and would be positioned one on top of the other.  
+- `display:inline-block`-if we set the display property to inline-block, the rectangles would be displayed side by side on the same line. Here is what the CSS could look like.
+- `display:inline`- The value inline is most often used to highlight specific text within a larger text element, span elements are a common example. Elements set to inline display have no width or height and only occupy the space that their text property (or .innerHTML property) takes up.
