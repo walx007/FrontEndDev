@@ -45,3 +45,11 @@ The grid-area property specifies a particular area or set of rows and columns th
 
 ```.header {grid-area: hd;}```  
 In the example above the element with the class header will stretch across the entire first row of columns because we have assigned it the grid-area hd, and we have defined the area hd with the value for grid-template-areas in the parent element
+
+------------------------------------------------------------------------------------------------------------------------------------
+#### Advanced Grid
+CSS Grid includes advanced capabilities for creating large and complex grids. Some of these are:  
+- the fr Unit  -it is used to fill rest of space.
+- Track listings with `repeat()` notation  
+- Track sizing and `minmax()`-use it in combination with `grid-auto-rows` to generate the infinite rows.e. fb feed.
+
