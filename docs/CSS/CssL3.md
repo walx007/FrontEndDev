@@ -46,7 +46,7 @@ There are three ways to explicitly set the order in which items will appear in a
 3. Using the order property of the individual items inside the grid
 ------------------------------------------------------------------------------------
 #### Aligning Items & Justifying Content with Flexbox
-align items--> It aligns items on the *cross* axis. use align-items with the possible values:
+`align-items`- It aligns items on the *cross* axis. use align-items with the possible values:
 - stretch  
 - flex-start  
 - flex-end  
