@@ -26,7 +26,8 @@ A simple example would be creating 2 different breakpoints so that up to x width
 
 Here is an example of what that code could look like:
 
-' /* Anything smaller than first breakpoint 600px */
+~~~
+/* Anything smaller than first breakpoint 600px */
 .container {
   // rules for small screen
 }
@@ -43,5 +44,6 @@ Here is an example of what that code could look like:
   .container {
     // rules for large screen
   }
-} '
+} 
+~~~
 
